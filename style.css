@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+
+#head{
+    color: blue;
+    font-size: 5em;
+    font-weight: bold;
+    text-align: center; 
+ }
+.sub_head, .sub{
+    text-align: center;
+}
+form{ 
+    /*display: grid;
+    justify-self: center;*/
+    border: 20%;background-color: whitesmoke;
+    padding-bottom: 5%; 
+    border-top-right-radius: 10%;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    row-gap: 5%;
+    box-shadow: 6px 12px grey;
+    width: 40%;
+  }   
+#wrapper{
+    display: grid;
+    justify-items: center;
+}
+ input[type='tel'], input[type='password'], input[type='date'], input[type="text"]{
+    margin-left: .2em;
+    margin-right: .2em;
+    margin-top: 1em;
+    width: 40%;
+ }
+
+ button{ 
+     background-color: green;
+     display: block;
+     text-align: center;
+     border-top-right-radius: 30%;
+    border-top-left-radius: 30%;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+     margin-left: 11em;
+     width: 10em;
+     margin-top: 3em;
+     margin-bottom: 2em;
+ }
+label{
+    border: .1em solid black;
+}
+
+.formhead{
+    margin-bottom: 2em;
+}
+
+.container{
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+div[class="names"], div[class="number"], div[class="gender"], div[class="password"], div[class="date-of-birth"]{
+    padding-bottom: 1em
+}
+    .number{
+        width: 57em;
+    }
+
+    .password{
+        width: 57em;
+    }
+
+#link a{
+text-decoration: none;
+text-align: center;
+margin-left: 8em;
+}
+
+
+@media (max-width:240px),(max-height:320px){
+body{
+    width: 100vh;
+    height: 100vh;
+}
+    #head{
+        justify-self: center;
+        font-size: 20vw;
+    }
+}

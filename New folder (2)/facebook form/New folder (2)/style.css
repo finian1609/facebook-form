@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#wrapper{
+    position: relative;
+    width: 100vw;
+    background-color: seagreen; 
+    mix-blend-mode: lighten;
+    color: yellow;
+    height: 100vh;
+}
+
+form{
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+  
+}
+
+#bg-video{
+position: fixed;
+z-index: -1;
+width: 100%;
+}
